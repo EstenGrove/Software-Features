@@ -1,3 +1,11 @@
+# Software Features Page
+- Used for testing SEO metrics
+
+#### __Original Page__ 
+- Create close replica of the following page:
+![SoftwareFeatures_OriginalPage](https://user-images.githubusercontent.com/41505038/54755096-630b9780-4ba2-11e9-8e14-ae35b0547467.png)
+
+
 COLUMN 1: RESIDENT CARE
 
 - Resident Assessments
