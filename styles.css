@@ -127,6 +127,7 @@ body {
   height: calc(100vh - 8rem);
   top: 8rem;
   left: 0;
+  padding: .5rem;
   display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -162,7 +163,7 @@ body {
   align-content: center;
   text-align: center;
   width: auto;
-  height: calc(100% / 6);
+  height: calc(100% / 7);
   padding: calc(100% / 7);
   font-size: 2rem;
   font-family: 'Roboto Condensed', sans-serif;
