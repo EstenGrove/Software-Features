@@ -464,9 +464,7 @@ div.sf-banner.darkBlue.flexBox-col>h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: flex-end;
 
 }
 
@@ -504,6 +502,7 @@ div.sf-banner.darkBlue.flexBox-col>h3 {
 
 .bottom-banner-right {
   width: 50%;
+  padding-right: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -565,6 +564,47 @@ div.sf-banner.darkBlue.flexBox-col>h3 {
   }
 
 }
+@media screen and (max-width: 650px) {
+  .bottom-banner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .bottom-banner-left {
+    width: 100%;
+
+  }
+  .bottom-banner-right {
+    width: 100%;
+
+  }
+  .bottom-banner__title {
+    font-size: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+}
+
+/* ------------  Footer Section  ------------ */
+.footer-wrapper {
+  max-width: 100vw;
+  min-height: 25rem;
+  background: #eff4f9;
+}
+.blue-link {
+  color: #3a79b7;
+}
+
+
+
+.footer-mid-social .icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+
+
 
 @media screen and (max-width: 500px) {
 
