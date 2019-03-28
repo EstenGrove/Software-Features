@@ -666,6 +666,10 @@ div.sf-banner.darkBlue.flexBox-col>h3 {
   width: 2.5rem;
   height: 2.5rem;
 }
+.scrollToTop .icon:hover {
+  fill: #5cbcea;
+  cursor: pointer;
+}
 
 /* ------------- Media Queries -------------- */
 
