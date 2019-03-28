@@ -479,6 +479,12 @@ div.sf-banner-1.darkBlue.flexBox-col>h3 {
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
 }
+#link-to-domain {
+  color: #0064b4;
+}
+#link-to--domain:hover {
+  background: rgb(0,0,0,0.4);
+}
 /* ----------------------  Bottom Banner  ---------------- */
 .bottom-banner {
   max-width: 100vw;
