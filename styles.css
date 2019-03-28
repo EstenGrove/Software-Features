@@ -21,6 +21,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -29,7 +30,6 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 /* ------------------------------- UTILITY CLASSES  ------------------------------- */
@@ -445,8 +445,8 @@ div.sf-banner.darkBlue.flexBox-col>h3 {
 /* ----------------------  Bottom Banner  ---------------- */
 .bottom-banner {
   max-width: 100vw;
-  height: 20rem;
-  padding: 2rem 0;
+  min-height: 20rem;
+  padding: 4rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -623,7 +623,7 @@ div.sf-banner.darkBlue.flexBox-col>h3 {
 
 .footer-nav {
   max-width: 100%;
-  height: 10rem;
+  height: 8rem;
   padding: 0 2.5rem;
   background: var(--medBlue);
 }
@@ -651,6 +651,22 @@ div.sf-banner.darkBlue.flexBox-col>h3 {
   text-decoration: none;
   font-weight: 300;
 }
+
+/* -----  Scroll to Top Button ------ */
+.scrollToTop {
+  position: fixed;
+  display: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  bottom: 1rem;
+  right: 1rem;
+}
+.scrollToTop .icon {
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
 /* ------------- Media Queries -------------- */
 
 @media screen and (max-width: 890px) {
