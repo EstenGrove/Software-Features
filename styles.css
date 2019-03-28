@@ -333,7 +333,26 @@ body {
   color: #fff;
   text-align: center;
 }
-
+.sf-banner-1 {
+  margin-top: 0;
+  max-width: 100vw;
+  height: auto;
+  padding: 4rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 300;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+  text-align: center;
+}
 /* -------------  Page Title  Heading ------------- */
 .pageTitle {
   font-size: 3.5rem;
@@ -438,10 +457,28 @@ body {
   margin-right: 2rem;
 }
 
-div.sf-banner.darkBlue.flexBox-col>h3 {
+div.sf-banner-1.darkBlue.flexBox-col>h3 {
   margin-bottom: 1.5rem;
+  
 }
-
+.desc-banner {
+  background: #eff4f9;
+  margin-top: 3rem;
+  max-width: 100vw;
+  min-height: 10rem;
+  padding: 4rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.desc-banner_text {
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
 /* ----------------------  Bottom Banner  ---------------- */
 .bottom-banner {
   max-width: 100vw;
@@ -618,7 +655,7 @@ div.sf-banner.darkBlue.flexBox-col>h3 {
 #copy {
   color: #222;
   margin-top: 1.5rem;
-  font-size: .5rem;
+  font-size: 1rem;
 }
 
 .footer-nav {
@@ -669,6 +706,9 @@ div.sf-banner.darkBlue.flexBox-col>h3 {
 .scrollToTop .icon:hover {
   fill: #5cbcea;
   cursor: pointer;
+}
+.sf-banner-1 {
+  margin-top: 0;
 }
 
 /* ------------- Media Queries -------------- */
