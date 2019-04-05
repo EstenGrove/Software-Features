@@ -11,9 +11,9 @@ const hamburgerIcon = document.querySelector("#hamburger-icon");
 const mobileLinksWrapper = document.querySelector(".mobileLinks-wrapper");
 
 // Close icon for mobile nav
-const closeIcon = "/img/sprite.svg#icon-cross";
+const closeIcon = "/images/sprite.svg#icon-cross";
 
-const openIcon = "/img/sprite.svg#icon-menu";
+const openIcon = "/images/sprite.svg#icon-menu";
 const iconEl = hamburgerIcon.children[0];
 
 // Function to Show/Hide Mobile Menu Items
