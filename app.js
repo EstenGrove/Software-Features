@@ -22,9 +22,9 @@ const iconEl = hamburgerIcon.children[0];
 const showMenu = e => {
   mobileLinksWrapper.classList.toggle("showMenu");
   if (mobileLinksWrapper.classList.contains("showMenu")) {
-    iconEl.setAttribute("xlink:href", closeIcon);
+    iconEl.setAttribute("xlink", closeIcon);
   } else {
-    iconEl.setAttribute("xlink:href", openIcon);
+    iconEl.setAttribute("xlink", openIcon);
   }
 };
 hamburgerIcon.addEventListener("click", showMenu);
@@ -49,17 +49,17 @@ toTopBtn.addEventListener("click", e => window.scrollTo(0, 0));
 // Features button redirects
 const featuresBtns = document.querySelectorAll(".mainButton");
 featuresBtns[0].addEventListener("click", e =>
-  window.location.replace(
+  window.location.assign(
     "https://info.aladvantage.com/owner-benefits-elder-care-software/"
   )
 );
 featuresBtns[1].addEventListener("click", e =>
-  window.location.replace(
+  window.location.assign(
     "https://info.aladvantage.com/senior-care-software-overview/"
   )
 );
 featuresBtns[2].addEventListener("click", e =>
-  window.location.replace(
+  window.location.assign(
     "https://info.aladvantage.com/software-features-summary/administrative-features/",
     "_blank"
   )
