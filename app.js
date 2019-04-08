@@ -2,6 +2,8 @@
  *  Author : Steven G.
  *  Created On : Wed Mar 20 2019
  *  File : app.js
+ *  PROPRIETARY RIGHTS NOTICE: All rights reserved. No part of this material may be reproduced or transmitted in any form or by any means, electronic, mechanical or otherwise, including photocopying and recording in connection with any information storage or retrieval system, without the written permission from AL Advantage LLC.
+ * All Rights Reserved.
  *******************************************/
 
 // Toggle Menu Icon
