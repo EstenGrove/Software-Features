@@ -64,3 +64,11 @@ featuresBtns[2].addEventListener("click", e =>
     "_blank"
   )
 );
+featuresBtns[3].addEventListener("click", e =>
+  window.location.assign("https://info.aladvantage.com")
+);
+featuresBtns[4].addEventListener("click", e =>
+  window.location.assign(
+    "https://info.aladvantage.com/owner-benefits-elder-care-software/contact-us/"
+  )
+);
