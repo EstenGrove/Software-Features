@@ -16,15 +16,16 @@ const mobileLinksWrapper = document.querySelector(".mobileLinks-wrapper");
 const closeIcon = "/images/sprite.svg#icon-cross";
 
 const openIcon = "/images/sprite.svg#icon-menu";
+console.log(openIcon);
 const iconEl = hamburgerIcon.children[0];
 
 // Function to Show/Hide Mobile Menu Items
 const showMenu = e => {
   mobileLinksWrapper.classList.toggle("showMenu");
   if (mobileLinksWrapper.classList.contains("showMenu")) {
-    iconEl.setAttribute("xlink", closeIcon);
+    iconEl.setAttribute("xlink:href", closeIcon);
   } else {
-    iconEl.setAttribute("xlink", openIcon);
+    iconEl.setAttribute("xlink:href", openIcon);
   }
 };
 hamburgerIcon.addEventListener("click", showMenu);
@@ -46,7 +47,7 @@ window.onscroll = () => {
 // Scroll to top when clicked
 toTopBtn.addEventListener("click", e => window.scrollTo(0, 0));
 
-// Features button redirects
+// Features buttons' redirects
 const featuresBtns = document.querySelectorAll(".mainButton");
 featuresBtns[0].addEventListener("click", e =>
   window.location.assign(
